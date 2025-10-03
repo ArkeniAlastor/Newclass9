@@ -44,10 +44,8 @@ void Elevator::Call()
 {
 	cout << "Введите этаж от " << groundFloor << " до " << topFloor << endl;
 	cin >> position;
-	cout << "Текущая позиция = " << position << endl;
-
+	cout << "Текущая позиция  = " << position << endl;
 }
-
 
 int main()
 {
