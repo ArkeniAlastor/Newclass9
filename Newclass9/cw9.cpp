@@ -12,7 +12,7 @@ public:
 	Elevator(int ground, int top);
 	void onOff(); // вкл выкл
 	void setPosition(int pos); // установка этажа
-	int GetPosition();
+	int GetPosition()const;
 	void Call();
 };
 
@@ -35,8 +35,9 @@ void Elevator::setPosition(int pos)
 	this->position = position;
 }
 
-int Elevator::GetPosition()
+int Elevator::GetPosition()const
 {
+	//this->position = 1000; // error
 	return 0;
 }
 
