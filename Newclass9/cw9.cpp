@@ -48,6 +48,11 @@ void Elevator::Call()
 	cout << "Текущая позиция  = " << position << endl;
 }
 
+const.Print()
+{
+
+}
+
 int main()
 {
 	setlocale(0, "ru");
