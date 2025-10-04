@@ -18,13 +18,5 @@
     <ClCompile Include="cw9.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lift.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="lift.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
